@@ -27,7 +27,7 @@ composer require loveteemo/wxnative
 
 ### 微信支付控制器:
 
-```
+``` php
 <?php
 /**
  * Created by PhpStorm.
