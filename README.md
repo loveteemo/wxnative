@@ -84,13 +84,7 @@ class Weixinpay extends Controller
 
         return json(['err' => 0 ,"result" => $arr ]);
     }
-
-    
-
-    
-
-
-}
+ }
 
 ```
 
@@ -198,7 +192,7 @@ class Weixinpay extends Controller
     }
 ```
 
-获取到的QQ数据
+获取到的微信返回数据
 ``` html
 array(10) {
   ["return_code"] => string(7) "SUCCESS"
