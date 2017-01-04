@@ -187,7 +187,7 @@ class Native{
         $string = http_build_query($data);
         $string = urldecode($string);
         $config = $this->config;
-        $string_sign = $string."&key=".$config['KEY'];
+        $string_sign = $string."&key=".$config['key'];
         $sign   = md5($string_sign);
         $result = strtoupper($sign);
 
