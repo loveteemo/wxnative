@@ -31,7 +31,6 @@ composer require loveteemo/wxnative
 <?php
 /**
  * Created by PhpStorm.
- * User: 隆航
  * Date: 2016/12/11 0011
  * Time: 17:21
  */
